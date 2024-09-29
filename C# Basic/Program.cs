@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 namespace C__Basic
 {
     // Komnentar sebaris
+    /*
+     * Komentar multi baris
+     */
     internal class Program
     {
         static void Main(string[] args)
