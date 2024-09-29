@@ -10,6 +10,8 @@ namespace C__Basic
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Basic C#");
+            Console.ReadLine();
         }
     }
 }
