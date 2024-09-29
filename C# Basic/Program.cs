@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace C__Basic
 {
+    // Komnentar sebaris
     internal class Program
     {
         static void Main(string[] args)
