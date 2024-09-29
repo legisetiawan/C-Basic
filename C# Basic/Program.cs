@@ -14,7 +14,7 @@ namespace C__Basic
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Basic C#");
+            Console.WriteLine("Basic C#");/* Komentar bisa di dalam baris code*/
             Console.ReadLine();
         }
     }
