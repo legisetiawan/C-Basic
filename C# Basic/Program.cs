@@ -52,62 +52,77 @@ namespace C__Basic
 
             //Operator Penugasan
 
-            // 1. =
-            int a = 3;
+            //// 1. =
+            //int a = 3;
 
-            // 2. +=
-            int b = 3;
-            b += 5;
+            //// 2. +=
+            //int b = 3;
+            //b += 5;
 
-            // 3. -=
-            int c = 8;
-            c -= 2; 
+            //// 3. -=
+            //int c = 8;
+            //c -= 2; 
 
-            // 4. *=
-            int d = 3;
-            d *= 5;
+            //// 4. *=
+            //int d = 3;
+            //d *= 5;
 
-            // 4. /=
-            int e = 8;
-            e /= 2;
+            //// 4. /=
+            //int e = 8;
+            //e /= 2;
 
-            // 4. %=
-            int f = 10;
-            f %= 5;
+            //// 4. %=
+            //int f = 10;
+            //f %= 5;
 
-            // 4. &=
-            int g = 3;
-            g &= 5;
+            //// 4. &=
+            //int g = 3;
+            //g &= 5;
+
+            //// 4. |=
+            //int h = 3;
+            //h |= 5;
+
+            //// 4. ^=
+            //int i = 3;
+            //i ^= 5;
+
+            //// 4. >>=
+            //int j = 3;
+            //j >>= 5;
+
+            //// 4. <<=
+            //int k = 3;
+            //k <<= 5;
+
+            //Console.WriteLine("  " + a + " samadengan = ");           
+            //Console.WriteLine("  " + b + " tambah");            
+            //Console.WriteLine("  " + c + " kurang");            
+            //Console.WriteLine("  " + d + " kali");           
+            //Console.WriteLine("  " + e + " bagi ");           
+            //Console.WriteLine("  " + f + " Mudolus");           
+            //Console.WriteLine("  " + g + " dan");           
+            //Console.WriteLine("  " + h + " atau");           
+            //Console.WriteLine("  " + i + " ^ ntah apa.!!");           
+            //Console.WriteLine("  " + j );           
+            //Console.WriteLine("  " + k + " hasilnya.!!?" );           
+            //Console.ReadLine();           
+
+            //Operator perbandingan
+           
+            int x = 3;
+            int y = 5;
+            int z = 3;
+            Console.WriteLine(x == y); /* kembalian type datanya  false karna 3 tidak sama dengan 5 */
+            Console.WriteLine(x != y); /* kembalian type datanya true karna 3 tidak sama dengan 5*/
+            Console.WriteLine(x > y); /* kembalian type datanya false karna salah 3 lebih kecil dari 5*/
+            Console.WriteLine(x < y); /* kembalian type datanya true karna benar 3 lebih kecil dari 5*/
+            Console.WriteLine(x >= y); /* kembalian type datanya false karna  3 lebih kecil dari 5*/
+            Console.WriteLine(x <= y); /* kembalian type datanya true karna benar 3 kecil sama dari 5*/
+            Console.WriteLine(x == z); /* kembalian type datanya true 3 sama dengan 3*/
             
-            // 4. |=
-            int h = 3;
-            h |= 5;
-            
-            // 4. ^=
-            int i = 3;
-            i ^= 5;
-            
-            // 4. >>=
-            int j = 3;
-            j >>= 5;
-            
-            // 4. <<=
-            int k = 3;
-            k <<= 5;
 
-            Console.WriteLine("  " + a + " samadengan = ");           
-            Console.WriteLine("  " + b + " tambah");            
-            Console.WriteLine("  " + c + " kurang");            
-            Console.WriteLine("  " + d + " kali");           
-            Console.WriteLine("  " + e + " bagi ");           
-            Console.WriteLine("  " + f + " Mudolus");           
-            Console.WriteLine("  " + g + " dan");           
-            Console.WriteLine("  " + h + " atau");           
-            Console.WriteLine("  " + i + " ^ ntah apa.!!");           
-            Console.WriteLine("  " + j );           
-            Console.WriteLine("  " + k + " hasilnya.!!?" );           
-            Console.ReadLine();           
-                
+            Console.ReadLine();
 
 
 
