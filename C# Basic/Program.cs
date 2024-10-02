@@ -37,12 +37,19 @@ namespace C__Basic
             int hasilTambah = angkaPertama + angkaKedua;
             int hasilKurang = angkaPertama - angkaKedua;
             int hasilBagi = angkaPertama / angkaKedua; /* Pastikan type data hasil operator sesuai keinginan karna dari hasil bagi, kali bisa menjadi bil pecahan*/
-            int hasilkali = angkaPertama * angkaKedua; /* Pastikan type data hasil operator sesuai keinginan karna dari hasil bagi, kali bisa menjadi bil pecahan*/            
+            int hasilkali = angkaPertama * angkaKedua; /* Pastikan type data hasil operator sesuai keinginan karna dari hasil bagi, kali bisa menjadi bil pecahan*/
+            angkaPertama++;/*bertambah 1*/
+            angkaKedua--; /*berkurang 1*/
             Console.WriteLine(hasilTambah);
             Console.WriteLine(hasilKurang);
             Console.WriteLine(hasilBagi);
             Console.WriteLine(hasilkali);
+            Console.WriteLine(angkaPertama % angkaKedua); /* hasil sisa pembagian dua bilangan*/
+            Console.WriteLine(angkaPertama);
+            Console.WriteLine(angkaKedua);
             Console.ReadLine();
+                   
+                
 
 
 
