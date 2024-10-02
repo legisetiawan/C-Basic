@@ -189,11 +189,22 @@ namespace C__Basic
 
             // if pernyataan    Kondisi dalam blok if bernilai TRUE lansung eksekusi jika false ke ELSE       
       
-            double nilai = 61.7;
-            if(nilai >= 70)           
-            Console.WriteLine("Selamat anda lulus Nilai anda" + " "+ nilai);
+            //double nilai = 61.7;
+            //if(nilai >= 70)           
+            //Console.WriteLine("Selamat anda lulus Nilai anda" + " "+ nilai);
+            //else
+            //Console.WriteLine("Selamat anda tidak lulus Nilai anda" + " "+ nilai + ", " + "Ulang setahun lagi atau lebih.!!");
+            //Console.ReadLine();
+            
+            // else if pernyataan    Kondisi dalam blok else if bernilai TRUE     
+      
+            double a = 81.6;
+            if(a <= 70)           
+            Console.WriteLine("Selamat anda lulus  Nilai anda" + " "+ a);
+            else if(a >= 80)           
+            Console.WriteLine("Selamat anda lulus Nilai tinggi anda" + " "+ a);
             else
-            Console.WriteLine("Selamat anda tidak lulus Nilai anda" + " "+ nilai + ", " + "Ulang setahun lagi atau lebih.!!");
+            Console.WriteLine("Selamat anda tidak lulus Nilai anda" + " "+ a + ", " + "Ulang setahun lagi atau lebih.!!");
             Console.ReadLine();        
          
         }
