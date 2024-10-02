@@ -33,17 +33,17 @@ namespace C__Basic
 
             //Type data casting
             //implisit casting otomatis
-            int x = 8;
-            double y = x;
-            Console.WriteLine(x);
-            Console.WriteLine(y);
-            
-            //exmplisit casting manual untuk menentukan type data yg di inginkan
-            double a = 8.5;
-            int b = (int) a; /* hati2 cara penulisan .!! agar jadi integer */
-            Console.WriteLine(a);
-            Console.WriteLine(b);
-            Console.ReadLine();
+            //int x = 8;
+            //double y = x;
+            //Console.WriteLine(x);
+            //Console.WriteLine(y);
+
+            ////exmplisit casting manual untuk menentukan type data yg di inginkan
+            //double a = 8.5;
+            //int b = (int) a; /* hati2 cara penulisan .!! agar jadi integer */
+            //Console.WriteLine(a);
+            //Console.WriteLine(b);
+            //Console.ReadLine();
 
             //Operator matematika
             //int angkaPertama = 32;
@@ -150,6 +150,13 @@ namespace C__Basic
             //int f = 7;
             //Console.WriteLine(!(e > 6 && f <=7)); /* Digunakan untuk membalikan hasil.  */
             //Console.ReadLine();
+
+            //Masukan User
+
+            Console.WriteLine("Masukan nama");
+            string user = Console.ReadLine();
+            Console.WriteLine("selamat malam" + " " + user + " inputnya hampir sama dengan si python.!!");
+            Console.ReadLine();
 
         }      
     }
