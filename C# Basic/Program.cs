@@ -31,6 +31,20 @@ namespace C__Basic
             //Console.WriteLine(angkaBool);/*  boolean*/
             //Console.ReadLine();
 
+            //Type data casting
+            //implisit casting otomatis
+            int x = 8;
+            double y = x;
+            Console.WriteLine(x);
+            Console.WriteLine(y);
+            
+            //exmplisit casting manual untuk menentukan type data yg di inginkan
+            double a = 8.5;
+            int b = (int) a; /* hati2 cara penulisan .!! agar jadi integer */
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.ReadLine();
+
             //Operator matematika
             //int angkaPertama = 32;
             //int angkaKedua = 23;
@@ -109,23 +123,33 @@ namespace C__Basic
             //Console.ReadLine();           
 
             //Operator perbandingan
-           
-            int x = 3;
-            int y = 5;
-            int z = 3;
-            Console.WriteLine(x == y); /* kembalian type datanya  false karna 3 tidak sama dengan 5 */
-            Console.WriteLine(x != y); /* kembalian type datanya true karna 3 tidak sama dengan 5*/
-            Console.WriteLine(x > y); /* kembalian type datanya false karna salah 3 lebih kecil dari 5*/
-            Console.WriteLine(x < y); /* kembalian type datanya true karna benar 3 lebih kecil dari 5*/
-            Console.WriteLine(x >= y); /* kembalian type datanya false karna  3 lebih kecil dari 5*/
-            Console.WriteLine(x <= y); /* kembalian type datanya true karna benar 3 kecil sama dari 5*/
-            Console.WriteLine(x == z); /* kembalian type datanya true 3 sama dengan 3*/
-            
 
-            Console.ReadLine();
+            //int x = 3;
+            //int y = 5;
+            //int z = 3;
+            //Console.WriteLine(x == y); /* kembalian type datanya  false karna 3 tidak sama dengan 5 */
+            //Console.WriteLine(x != y); /* kembalian type datanya true karna 3 tidak sama dengan 5*/
+            //Console.WriteLine(x > y); /* kembalian type datanya false karna salah 3 lebih kecil dari 5*/
+            //Console.WriteLine(x < y); /* kembalian type datanya true karna benar 3 lebih kecil dari 5*/
+            //Console.WriteLine(x >= y); /* kembalian type datanya false karna  3 lebih kecil dari 5*/
+            //Console.WriteLine(x <= y); /* kembalian type datanya true karna benar 3 kecil sama dari 5*/
+            //Console.WriteLine(x == z); /* kembalian type datanya true 3 sama dengan 3*/           
+            //Console.ReadLine();
 
-
-
+            //Operator Logika
+            // &&
+            //int a = 10;
+            //int b = 7;
+            //Console.WriteLine(a > 6 && b <=7); /* menentukan jika nilai a dan b besar dari 7 maka hasil true, perbandingan logika && kembalian TRUE  */
+            //// &&
+            //int c = 10;
+            //int d = 7;
+            //Console.WriteLine(c > 6 || d <=7); /* menentukan jika nilai a dan b besar dari 7 maka hasil true, perbandingan logika && kembalian TRUE  */
+            //// &&
+            //int e = 10;
+            //int f = 7;
+            //Console.WriteLine(!(e > 6 && f <=7)); /* Digunakan untuk membalikan hasil.  */
+            //Console.ReadLine();
 
         }      
     }
