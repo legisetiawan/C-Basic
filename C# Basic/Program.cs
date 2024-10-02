@@ -86,6 +86,14 @@ namespace C__Basic
             // 4. ^=
             int i = 3;
             i ^= 5;
+            
+            // 4. >>=
+            int j = 3;
+            j >>= 5;
+            
+            // 4. <<=
+            int k = 3;
+            k <<= 5;
 
             Console.WriteLine("  " + a + " samadengan = ");           
             Console.WriteLine("  " + b + " tambah");            
@@ -95,7 +103,9 @@ namespace C__Basic
             Console.WriteLine("  " + f + " Mudolus");           
             Console.WriteLine("  " + g + " dan");           
             Console.WriteLine("  " + h + " atau");           
-            Console.WriteLine("  " + i + " ^ ntah apo.!!");           
+            Console.WriteLine("  " + i + " ^ ntah apa.!!");           
+            Console.WriteLine("  " + j );           
+            Console.WriteLine("  " + k + " hasilnya.!!?" );           
             Console.ReadLine();           
                 
 
