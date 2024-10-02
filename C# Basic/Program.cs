@@ -161,36 +161,42 @@ namespace C__Basic
             // Fungsi bawaan C# 
 
             // max
-            int x = 10;
-            double y = 15.6;
-            Console.WriteLine(Math.Max(x, y));
-            
-            // min
-            int a = 10;
-            double b = 15.1;
-            Console.WriteLine(Math.Min(a, b)+ "min");           
+            //int x = 10;
+            //double y = 15.6;
+            //Console.WriteLine(Math.Max(x, y));
 
-            // sqrt atau AKAR
-            int c = 10;           
-            Console.WriteLine(Math.Sqrt(c) + "akar");           
-            
-            // abs mengembalikan nilai positif
-            double d = -3.8;            
-            Console.WriteLine(Math.Abs(d) + "mengembalikan nilai positif");
-            
-            // abs membulatkan bilangan
-            double e = 3.8;            
-            double f = 3.4;            
-            Console.WriteLine(Math.Round(e) + "membulatkan ke atas");
-            Console.WriteLine(Math.Round(f) + "membulatkan ke bawah");
-            Console.ReadLine();
+            //// min
+            //int a = 10;
+            //double b = 15.1;
+            //Console.WriteLine(Math.Min(a, b)+ "min");           
 
+            //// sqrt atau AKAR
+            //int c = 10;           
+            //Console.WriteLine(Math.Sqrt(c) + "akar");           
 
+            //// abs mengembalikan nilai positif
+            //double d = -3.8;            
+            //Console.WriteLine(Math.Abs(d) + "mengembalikan nilai positif");
 
+            //// abs membulatkan bilangan
+            //double e = 3.8;            
+            //double f = 3.4;            
+            //Console.WriteLine(Math.Round(e) + "membulatkan ke atas");
+            //Console.WriteLine(Math.Round(f) + "membulatkan ke bawah");
+            //Console.ReadLine();
 
+            //Kondisi dan pernyataan di c#
 
-
-        }      
+            // if pernyataan    Kondisi dalam blok if bernilai TRUE lansung eksekusi jika false ke ELSE       
+      
+            double nilai = 61.7;
+            if(nilai >= 70)           
+            Console.WriteLine("Selamat anda lulus Nilai anda" + " "+ nilai);
+            else
+            Console.WriteLine("Selamat anda tidak lulus Nilai anda" + " "+ nilai + ", " + "Ulang setahun lagi atau lebih.!!");
+            Console.ReadLine();        
+         
+        }
     }
     
 }
